@@ -18,7 +18,7 @@ class VideoCardWidget extends StatelessWidget {
           controller: YoutubePlayerController(
             initialVideoId: videoCard.id,
             flags: const YoutubePlayerFlags(
-              autoPlay: true,
+              autoPlay: false,
               mute: false,
             ),
           ),
